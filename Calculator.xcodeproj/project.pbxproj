@@ -16,7 +16,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		9EBC60212404368100A5141A /* SwiftPackageManager.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SwiftPackageManager.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		9EBC60212404368100A5141A /* Calculator.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Calculator.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		9EBC60242404368100A5141A /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		9EBC60262404368100A5141A /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
 		9EBC60282404368100A5141A /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -40,7 +40,7 @@
 		9EBC60182404368100A5141A = {
 			isa = PBXGroup;
 			children = (
-				9EBC60232404368100A5141A /* SwiftPackageManager */,
+				9EBC60232404368100A5141A /* Calculator */,
 				9EBC60222404368100A5141A /* Products */,
 			);
 			sourceTree = "<group>";
@@ -48,12 +48,12 @@
 		9EBC60222404368100A5141A /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				9EBC60212404368100A5141A /* SwiftPackageManager.app */,
+				9EBC60212404368100A5141A /* Calculator.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		9EBC60232404368100A5141A /* SwiftPackageManager */ = {
+		9EBC60232404368100A5141A /* Calculator */ = {
 			isa = PBXGroup;
 			children = (
 				9EBC60242404368100A5141A /* AppDelegate.swift */,
@@ -64,7 +64,7 @@
 				9EBC60322404368300A5141A /* Info.plist */,
 				9EBC602C2404368300A5141A /* Preview Content */,
 			);
-			path = SwiftPackageManager;
+			path = Calculator;
 			sourceTree = "<group>";
 		};
 		9EBC602C2404368300A5141A /* Preview Content */ = {
@@ -78,9 +78,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		9EBC60202404368100A5141A /* SwiftPackageManager */ = {
+		9EBC60202404368100A5141A /* Calculator */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 9EBC60352404368300A5141A /* Build configuration list for PBXNativeTarget "SwiftPackageManager" */;
+			buildConfigurationList = 9EBC60352404368300A5141A /* Build configuration list for PBXNativeTarget "Calculator" */;
 			buildPhases = (
 				9EBC601D2404368100A5141A /* Sources */,
 				9EBC601E2404368100A5141A /* Frameworks */,
@@ -90,9 +90,11 @@
 			);
 			dependencies = (
 			);
-			name = SwiftPackageManager;
+			name = Calculator;
+			packageProductDependencies = (
+			);
 			productName = SwiftPackageManager;
-			productReference = 9EBC60212404368100A5141A /* SwiftPackageManager.app */;
+			productReference = 9EBC60212404368100A5141A /* Calculator.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -110,7 +112,7 @@
 					};
 				};
 			};
-			buildConfigurationList = 9EBC601C2404368100A5141A /* Build configuration list for PBXProject "SwiftPackageManager" */;
+			buildConfigurationList = 9EBC601C2404368100A5141A /* Build configuration list for PBXProject "Calculator" */;
 			compatibilityVersion = "Xcode 9.3";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -119,11 +121,13 @@
 				Base,
 			);
 			mainGroup = 9EBC60182404368100A5141A;
+			packageReferences = (
+			);
 			productRefGroup = 9EBC60222404368100A5141A /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				9EBC60202404368100A5141A /* SwiftPackageManager */,
+				9EBC60202404368100A5141A /* Calculator */,
 			);
 		};
 /* End PBXProject section */
@@ -285,16 +289,16 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_ASSET_PATHS = "\"SwiftPackageManager/Preview Content\"";
+				DEVELOPMENT_ASSET_PATHS = "\"Calculator/Preview Content\"";
 				DEVELOPMENT_TEAM = RN439F44ZZ;
 				ENABLE_PREVIEWS = YES;
-				INFOPLIST_FILE = SwiftPackageManager/Info.plist;
+				INFOPLIST_FILE = Calculator/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.sgarcia710.SwiftPackageManager;
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_BUNDLE_IDENTIFIER = com.sgarcia710.Calculator;
+				PRODUCT_NAME = Calculator;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -305,16 +309,16 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_ASSET_PATHS = "\"SwiftPackageManager/Preview Content\"";
+				DEVELOPMENT_ASSET_PATHS = "\"Calculator/Preview Content\"";
 				DEVELOPMENT_TEAM = RN439F44ZZ;
 				ENABLE_PREVIEWS = YES;
-				INFOPLIST_FILE = SwiftPackageManager/Info.plist;
+				INFOPLIST_FILE = Calculator/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.sgarcia710.SwiftPackageManager;
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_BUNDLE_IDENTIFIER = com.sgarcia710.Calculator;
+				PRODUCT_NAME = Calculator;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -323,7 +327,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		9EBC601C2404368100A5141A /* Build configuration list for PBXProject "SwiftPackageManager" */ = {
+		9EBC601C2404368100A5141A /* Build configuration list for PBXProject "Calculator" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				9EBC60332404368300A5141A /* Debug */,
@@ -332,7 +336,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		9EBC60352404368300A5141A /* Build configuration list for PBXNativeTarget "SwiftPackageManager" */ = {
+		9EBC60352404368300A5141A /* Build configuration list for PBXNativeTarget "Calculator" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				9EBC60362404368300A5141A /* Debug */,
